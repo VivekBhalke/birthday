@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(59, 59, 174);
+   
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:40px;
+
+}
+.container{
+    background-color: antiquewhite;
+    border-radius: 0.5rem;
+    border: solid rgb(59, 59, 174) ;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.image{
+    width: 60%;
+    height: 60%;
+    transition: transform 0.2s ease-in-out; /* Add this line */
+
+}
+.image:hover{
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1); /* Add this line */
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* border: solid red; */
+    border-width: 2px;
+}
+.heading{
+    font:bold;
+    font-size:2.25rem;
+    transform: scale(1.1);
+}
+.span1{
+    font-family: "Cedarville Cursive", cursive;
+    color :rgb(59, 174, 145)
+}
+.span1:hover {
+    color: rgb(0, 83, 100);
+    transition: color 0.2s ease-in-out;
+}
+
+.heart{
+    width: 28px;
+    height: 28px;
+}
+
+.paragraph{
+    font-size: 1.275rem;
+}
+.span2{
+    font-family: "Cedarville Cursive", cursive;
+    color :rgb(231, 83, 148)
+}
